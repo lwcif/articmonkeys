@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #968735;
+    color: #000000;
+    font-style:italic;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #0a1d37;
+    padding: 20px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#discografia {
+    background-color: #9687358c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.album {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.album img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label, form textarea, form input {
+    display: block;
+    margin: 10px 0;
+}
+
+form button {
+    background-color: #0a1d37;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #081a31;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #0a1d37;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+ #biografia {
+    display: flex;
+    padding-top: 0%;
+ }

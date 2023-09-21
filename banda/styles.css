@@ -2,25 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+   background-color: #ffffff;
 }
 
 header {
-    background-color: #968735;
+    background-color: #0a1d37;
     color: #000000;
     font-style:italic;
-    text-align: center;
     padding: 20px;
+    align-content: baseline;
+    text-align: center;
 }
 
 header img {
     max-width: 100px;
+    align-items: center;
+    align-self: auto;
 }
-
 
 nav ul {
     list-style-type: none;
     display: flex;
-    background-color: #0a1d37;
+    align-content: center;
+    align-items: baseline;
+    background-color: #0a1d37ab;
     padding: 20px;
     justify-content: center;
 }
@@ -39,7 +44,7 @@ nav a:hover {
 }
 
 #discografia {
-    background-color: #9687358c;
+    background-color: #0a1d379d;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -83,7 +88,6 @@ form button:hover {
     background-color: #081a31;
 }
 
-/* Estilos do rodapé */
 footer {
     background-color: #0a1d37;
     color: #fff;
@@ -110,7 +114,9 @@ footer {
 .social-links a:hover {
     text-decoration: underline;
 }
- #biografia {
-    display: flex;
-    padding-top: 0%;
- }
+
+
+#biografia {
+    font-family: 'Roboto', sans-serif;
+   text-align: center;
+}
